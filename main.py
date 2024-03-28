@@ -1,1 +1,5 @@
 #xd
+
+def main():
+    pass
+
