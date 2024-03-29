@@ -1,4 +1,0 @@
-#LMAO
-
-output = []
-
