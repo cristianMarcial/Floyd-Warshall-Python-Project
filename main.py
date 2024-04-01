@@ -18,7 +18,8 @@ else:
 
 # py main.py [[0,inf,-2,inf],[4,0,3,inf],[inf,inf,0,2],[inf,-1,inf,0]] 4
 
-# python3 floyd.py [[0,3,inf,7],[8,0,2,inf],[5,inf,0,1],[2,inf,inf,0]] 1-4
+# python3 floyd.py [[0,3,inf,7],[8,0,2,inf],[5,inf,0,1],[2,inf,inf,0]] 1-4 OR
+# py main.py [[0,3,inf,7],[8,0,2,inf],[5,inf,0,1],[2,inf,inf,0]] 4
 
 # ecept:
     #[[0, 3, inf, 7], [8, 0, 2, 15], [5, 8, 0, 1], [2, 5, inf, 0]]
