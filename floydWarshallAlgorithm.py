@@ -10,3 +10,4 @@ def output(matrix, l):
                     output[i][j] = output[i][k] + output[k][j]
     for i in range(len(matrix)): 
         output[i][i] = 0
+    return output

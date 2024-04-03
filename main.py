@@ -5,7 +5,7 @@ import floydWarshallAlgorithm as fw
 # Example of an valid input: py main.py [[0,3,inf,7],[8,0,2,inf],[5,inf,0,1],[2,inf,inf,0]] 1
 
 # Expected result: [[0, 3, inf, 7], [8, 0, 2, 15], [5, 8, 0, 1], [2, 5, inf, 0]]
-
+ 
 try:
     if len(argv) > 1:
         print(str(fw.output(literal_eval(argv[1].replace('inf', 'None')), literal_eval(argv[2]))).replace('None', 'inf'))
